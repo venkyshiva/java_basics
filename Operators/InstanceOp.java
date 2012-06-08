@@ -4,10 +4,13 @@ class InstanceOp {
 
 		Parent p = new Parent();
 
-		Child c = new Child();	
+		Parent c = new Child();	
 
 		System.out.println("p is instance of Parent = " + (p instanceof Parent));
 
+		System.out.println("c is instance of Child ="+(c instanceof Child));
+
+		System.out.println("c implements IRelation = "+ (c instanceof IRelation));
 	}
 }
 

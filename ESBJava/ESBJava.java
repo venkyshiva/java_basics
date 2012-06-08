@@ -2,7 +2,16 @@ class ESBJava {
 
 	public static void main(String args[]){
 	       
-	       System.out.println("Welcome to first java code in git");
+        	System.out.println("-----Expression-----"); 
+
+		int a = 1, b = 2;
+
+		int c;
+
+		c = a + b;
+
+		System.out.println("c = "+c);
+
 
 	}
 }
