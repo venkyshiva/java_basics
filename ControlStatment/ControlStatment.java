@@ -5,7 +5,6 @@ class ControlStatment {
 		System.out.println("-----Control Statment-----");
 
 		int a, b, c;
-
 		a = 1; b = 2; c = 3;
 
 		if(a > b){
