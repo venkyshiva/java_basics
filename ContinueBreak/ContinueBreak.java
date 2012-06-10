@@ -21,5 +21,20 @@ class ContinueBreak {
 				}
 			}
 		}
+
+
+		System.out.println("-----Continue Statment-----");
+
+		for (int i = 0; i < 5; i++) {
+			
+			if(i == 3){
+				
+				System.out.println("3 is omitted " );
+
+				continue;
+			}
+
+			System.out.println("i = "+ i);
+		}
 	}
 }
