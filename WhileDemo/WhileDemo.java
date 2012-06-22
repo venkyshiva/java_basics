@@ -1,4 +1,4 @@
-class WhileDemo { 
+class WhileDemo {
 
 	static boolean FIND  = true;
 
