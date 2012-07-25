@@ -31,7 +31,7 @@ public enum Enum {
 	public static void main(String args[]) {
 		System.out.println("Boot main via Enum");
 		
-		System.out.println(Enum.SUNDAY);
+		System.out.println(Enum.SUNDAY);		
 		
 		Days first = new Days(Enum.SUNDAY);
 		first.comments();
